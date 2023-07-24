@@ -1,0 +1,240 @@
+/* PROP. GLOBAIS */
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fbfbfb;
+}
+
+textarea{
+    resize: none;
+}
+/* PROP. GLOBAIS */
+
+/* PROP. HEADER */
+.header{
+    padding: 32px;
+    box-shadow: 0px 1px 10px #0000001a;
+    background-color: #ff8800;
+}
+
+.logomarca{
+    width: 12vw;
+}
+
+
+html {
+    background-color: #fbfbfb;
+}
+
+
+
+.titulo {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 4rem;
+    color: #33303E;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.links-navegacao{
+    display: flex;
+    list-style-type: none;
+}
+
+.links-navegacao li a{
+    padding: 0px;
+    margin: 16px;
+    color: #fbfbfb;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+li.cadastrar a{
+    padding: 8px;
+    margin: 0px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #d1a52a;
+}
+
+li.cadastrar a:hover{
+    font-size: 1.4rem;
+    padding: 10 13px;
+    transition: 0.5 ease;
+}
+
+.painel-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 128px;
+    margin-top: 20px;
+}
+
+.anuncio-petz {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.botao-principal {
+    font-size: 19px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    padding: 16px 32px;
+    background-color: #ff950d;
+    color: #f5f5f5;
+    border-radius: 10px;
+    border: 1px solid #f5f5f5;
+    cursor: pointer;
+    display: flex;
+    margin-left: 30vw;
+
+}
+
+
+
+.descricao {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 2rem;
+    color: #4e4b59;
+
+}
+
+.segunda-secao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #ec768640;
+    height: 500px;
+}
+
+
+.cachorros, .gatos, .hamsters{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.botao_cachorro, .botao_gato, .botao_hamster{
+
+    font-size: 19px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    padding: 15px 72px;
+    background-color: #ff950d;
+    color: #f5f5f5;
+    border-radius: 10px;
+    border: 1px solid #f5f5f5;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.terceira-secao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+h2{
+    font-family:'Mochiy Pop One', sans-serif;
+    font-size: 2.5em;
+}
+.conteudos{
+    display: flex;
+   gap: 200px;
+}
+.depoimentos{
+    display: flex;
+    width: 25vw;
+    height: 200px;
+    background-color: #c3c2c7;
+    border-radius: 8px;
+   
+}
+.depoimento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    margin-left: 20px;
+}
+
+
+.rodape{
+    background-color: #ff8800;
+}
+
+.conteudo-rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+    padding: 12px;
+    font-weight: 500; 
+}
+
+
+.lista ul{
+    font-family:'Mochiy Pop One', sans-serif;
+    font-size: 1.2em;
+}
+
+
+.redes-sociais{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 0 8px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #f5f5f5 !important;
+    gap: 10px;
+}
+
+.copyright{
+    padding-bottom: 16px;
+    text-align: center;
+    color: #f5f5f5;
+}
+
+
+
+
+
+

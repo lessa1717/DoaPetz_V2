@@ -1,0 +1,587 @@
+/* PROP. GLOBAIS */
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fbfbfb;
+}
+
+textarea{
+    resize: none;
+}
+/* PROP. GLOBAIS */
+
+/* PROP. HEADER */
+.header{
+    padding: 32px;
+    box-shadow: 0px 1px 10px #0000001a;
+    background-color: #ff8800;
+}
+
+.logomarca{
+    width: 12vw;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.links-navegacao{
+    display: flex;
+    list-style-type: none;
+}
+
+.links-navegacao li a{
+    padding: 0px;
+    margin: 16px;
+    color: #fbfbfb;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+li.cadastrar a{
+    padding: 8px;
+    margin: 0px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #d1a52a;
+}
+
+li.cadastrar a:hover{
+    font-size: 1.4rem;
+    padding: 10 13px;
+    transition: 0.5 ease;
+}
+/* PROP. HEADER */
+
+/* PROP. BODY */
+    /* SEÇÃO PRIMARIA */
+.painel-principal{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px;
+    width: 85%;
+}
+
+.corpo{
+    padding: 0px 0;
+}
+
+.titulo{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 4rem;
+    color: #33302e;
+}
+
+.descricao{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color: #4e4b59;
+}
+
+.anuncio-pet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 50%;
+}
+
+.links-adocao{
+    display: flex;
+    list-style-type: none;
+}
+
+.links-adocao li a{
+    padding: 0px;
+    margin: 16px;
+    color: #33302e;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+li.botao-adotar a{
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: 600;
+    background-color: #ffcd45;
+}
+
+.img-1{
+    width: 40rem;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px #0000003a;
+}
+    /* SEÇÃO PRIMARIA */
+
+    /* SEÇÃO SECUNDARIA */
+.titulo-secundario{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 4rem;
+    color: #33302e;
+}
+
+.cards-feedback{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 0;
+    background-color: #ff880026;
+}
+
+.cards-feedback h2{
+    width: 52%;
+    text-align: center;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 48px 0px 0px 0px;
+}
+
+.card-de-perfil{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 32vw;
+    padding: 32px;
+    border-radius: 10px;
+    background-color: #fbfbfb;
+    box-shadow: 2px 2px 15px #4e4b5926;
+}
+
+.img-cliente{
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px #0000003a;
+}
+
+.descricao, .clientes{
+    text-align: center;
+    margin: 0px 0px 0px 20px;
+}
+
+.nome-cliente{
+    text-align: end;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.links-avaliar li a{
+    padding: 0px;
+    margin: 16px;
+    color: #33302e;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.links-avaliar{
+    display: flex;
+    margin: 40px 0px 0px 0px;
+    list-style-type: none;
+}
+
+li.botao-avaliar a{
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: 600;
+    background-color: #ffcd45;
+}
+    /* SEÇÃO SECUNDARIA */
+
+    /* SEÇÃO TERCIARIA */
+.sobre-a-doapetz{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5vw;
+    width: 50%;
+    padding: 5vw 0;
+    margin: 0vw 0vw 0vw 5vw;
+}
+
+.sobredesc{
+    display: flex;
+    gap: 40px;
+}
+
+.titulo, .secao-terciaria{
+    display: flex;
+    text-align: center;
+    width: 26vw;
+    padding: 0vw 0vw 1vw 0vw;
+}
+
+.descricao, .terciaria{
+    text-align: justify;
+}
+        /* PROP. FORMULARIO */
+.form-contato{
+    background-image: url(./assets/IMGS/gato_laco.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.titulo, .formulario{
+    display: flex;
+    justify-content: center;
+}
+
+.formulario-de-contato{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5vw;
+}
+
+.titulo-form{
+    margin: 7px 0px 0px 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #33302e;
+}
+
+.input-form{
+    height: 35px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.input-form-text{
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.botao-enviar{
+    padding: 8px;
+    margin: 10px 40px 10px 310px; /* MUDAR VALORES PARA WIDTH */
+    font-size: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    border-color: black;
+    color: #33302e;
+    font-weight: 700;
+    background-color: #ffcd45;
+}
+        /* PROP. FORMULARIO */
+    /* SEÇÃO TERCIARIA */
+/* PROP. BODY */
+
+/* PROP. FOOTER */
+.rodape{
+    background-color: #ff8800;
+}
+
+.conteudo-rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0 8px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #f5f5f5 !important;
+}
+
+.copyright{
+    padding-bottom: 16px;
+    text-align: center;
+    color: #f5f5f5;
+}
+/* PROP. FOOTER */
+
+/* PROP. RESPONSIVO */
+@media (max-width: 1024px){
+
+/* HEADER */
+.logomarca{
+    width: 16vw;
+}
+
+.links-navegacao{
+    gap: 25px;
+}
+/* HEADER */
+
+/* SEÇÃO PRIMARIA */
+.painel-principal{
+    gap: 5vw;
+}
+
+.img-1{
+    width: 28rem;
+}
+
+.links-adocao{
+    gap: 2vw;
+}
+/* SEÇÃO PRIMARIA */
+
+/* SEÇÃO SECUNDARIA */
+.card-de-perfil{
+    flex-direction: column;
+    gap: 25px;
+}
+
+.descricao, .clientes{
+    margin: 0 auto;
+}
+
+.cards-feedback h2{
+    width: 67%;
+}
+/* SEÇÃO SECUNDARIA */
+
+/* SEÇÃO TERCIARIA */
+.sobre-a-doapetz{
+    flex-direction: column;
+    width: auto;
+    margin: 0vw 5vw 0vw 5vw;
+    gap: 30px;
+}
+
+.sobredesc{
+    display: flex;
+    gap: 50px;
+
+}
+
+.contato{
+    width: 50%;
+}
+
+.titulo, .secao-terciaria{
+    margin: 0 auto;
+    padding: 0px 0px 20px 0px;
+    font-size: 42px;
+}
+
+.botao-enviar{
+    margin: 10px 0px 0px 310px;
+    width: 100px;
+}
+
+.titulo, .formulario{
+    margin: 0;
+    width: auto;
+}
+/* SEÇÃO TERCIARIA */
+}
+
+@media (max-width: 768px){
+
+/* HEADER */
+.logomarca{
+    width: 22vw;
+}
+/* HEADER */
+
+/* SEÇÃO PRIMARIA */
+.painel-principal{
+    flex-direction: column-reverse;
+    width: auto;
+    margin: 50px 100px 50px 100px;
+}
+
+.anuncio-pet{
+    width: auto;
+    gap: 40px;
+}
+
+.titulo, .primario{
+    padding: 0;
+    font-size: 53px;
+}
+/* SEÇÃO PRIMARIA */
+
+/* SEÇÃO SECUNDARIA */
+.cards-feedback{
+    padding: 50px 100px 50px 100px;
+}
+
+.cards-feedback h2{
+    width: auto;
+}
+
+.cards-container{
+    flex-direction: column;
+    width: auto;
+    gap: 45px;
+}
+
+.card-de-perfil{
+    flex-direction: row;
+    width: 72vw;
+}
+
+.links-avaliar{
+    margin: 45px 0px 0px 0px;
+}
+
+.links-avaliar li a{
+    margin: 0;
+}
+/* SEÇÃO SECUNDARIA */
+
+/* SEÇÃO TERCIARIA */
+.sobre-a-doapetz{
+    padding: 0;
+    margin: 5.2vw 10.3vw 5.2vw 10.3vw;
+}
+
+.sobredesc{
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.titulo, .secao-terciaria{
+    width: auto;
+    font-size: 48px;
+}
+
+.contato, .div{
+    width: auto;
+}
+
+.descricao, .terciaria{
+    margin: 28px 0px 0px 0px
+}
+/* SEÇÃO TERCIARIA */
+}
+
+/* FOOTER */
+.redes-sociais{
+    font-size: 15px;
+}
+
+.copyright{
+    font-size: 10px;
+}
+/* FOOTER */
+
+@media (max-width: 700px){
+
+/* SEÇÃO PRIMARIA */
+.img-1{
+    width: 30rem;
+}
+/* SEÇÃO PRIMARIA */
+
+/* SEÇÃO SECUNDARIA */
+.card-de-perfil{
+    flex-direction: column;
+    width: 69vw;
+}
+
+.descricao, .clientes{
+    margin: 0;
+    gap: 35px;
+}
+/* SEÇÃO SECUNDARIA */
+}
+
+@media (max-width: 500px){
+
+/* HEADER */
+
+/* HEADER */
+
+/* SEÇÃO PRIMARIA */
+.painel-principal{
+    margin: 50px;
+    gap: 8vw;
+}
+
+.img-1{
+    width: 24rem;
+}
+
+.anuncio-pet{
+    gap: 20px;
+}
+/* SEÇÃO PRIMARIA */
+
+/* SEÇÃO SECUNDARIA */
+.cards-feedback{
+    padding: 25px 50px 25px 50px;
+}
+
+.titulo-secundario{
+    font-size: 38px;
+}
+
+.cards-container{
+    margin: 26px 0px 0px 0px;
+}
+/* SEÇÃO SECUNDARIA */
+
+/* SEÇÃO TERCIARIA */
+.sobre-a-doapetz{
+    margin: 25px 50px 25px 50px;
+}
+
+.titulo, .secao-terciaria{
+    width: auto;
+    font-size: 37px;
+}
+
+.sobredesc{
+    gap: 40px;
+}
+
+.descricao, .terciaria{
+    font-size: 20px;
+}
+/* SEÇÃO TERCIARIA */
+
+/* FOOTER */
+.redes-sociais{
+    font-size: 12px;
+}
+
+.copyright{
+    font-size: 9px;
+}
+/* FOOTER */
+}
+/* PROP. RESPONSIVO */
